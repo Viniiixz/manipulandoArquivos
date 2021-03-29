@@ -12,7 +12,7 @@ int main() {
     printf("\nDigite seu nome: ");
     scanf("%s", nome);
 
-    ptr = fopen("exemplo.txt", "w");
+    ptr = fopen("arquivo.txt", "w");
 
     if (ptr == NULL)
         printf("Erro na abertura");
