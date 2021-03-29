@@ -9,10 +9,10 @@ int main() {
     printf("Digite sua idade");
     scanf("%d", &idade);
 
-    printf("Digite seu nome");
+    printf("\nDigite seu nome");
     scanf("%s", nome);
 
-    ptr = fopen("exemplo.txt", "w");
+    ptr = fopen("arquivo.txt", "w");
 
     if (ptr == NULL)
         printf("Erro na abertura");
