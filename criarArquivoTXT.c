@@ -6,10 +6,10 @@ int main() {
     int idade;
     char nome[20];
 
-    printf("Digite sua idade");
+    printf("Digite sua idade: ");
     scanf("%d", &idade);
 
-    printf("Digite seu nome");
+    printf("\nDigite seu nome: ");
     scanf("%s", nome);
 
     ptr = fopen("exemplo.txt", "w");
