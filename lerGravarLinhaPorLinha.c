@@ -7,7 +7,7 @@ int main(void)
 {
  FILE *fptr;  /* ponteiro para arquivo */
  
- fptr = fopen("TesteSTR.txt","w");/*Cria p/gravar em modo texto */
+ fptr = fopen("strings.txt","w");/*Cria p/gravar em modo texto */
  
  fputs("Um grande antídoto contra o egoísmo\n",fptr);
  fputs("é a generosidade... Dê, mesmo que\n", fptr);
